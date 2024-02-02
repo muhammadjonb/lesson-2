@@ -1,0 +1,36 @@
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v15-latin-regular.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #22272E;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
