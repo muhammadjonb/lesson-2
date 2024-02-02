@@ -10,7 +10,7 @@ body{
     background-color: #22272E;
 }
 .container{
-    padding: 0 30px;
+    padding: 0 16px;
 }
 a{
     text-decoration: none;
@@ -21,4 +21,7 @@ button{
 }
 li{
     list-style: none;
+}
+input{
+    outline: none;
 }

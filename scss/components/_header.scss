@@ -1,0 +1,130 @@
+header{
+    padding-top: 15px;
+    background-color: #1C2128;
+    border-bottom: 1px solid #9090904a;
+}
+.navbar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    &_top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-left{
+            display: flex;
+            align-items: center;
+            button{
+                padding: 4px;
+                display: flex;
+                font-size: 24px;
+                border-radius: 6px;
+                align-items: center;
+                border: 1px solid #adbac75f;
+                color: #ADBAC7;
+                background-color: transparent;
+            }
+            .git-gub{
+                width: 36px;
+                height: 36px;
+                margin-left: 12px;
+                ion-icon{
+                    font-size: 36px;
+                    color: #ADBAC7;
+                }
+            }
+            a{
+                padding: 8px;
+                font-size: 14px;
+                margin-left: 8px;
+                color: #ADBAC7;
+                font-weight: 500;
+                transition: 0.1s;
+                &:hover{
+                    border-radius: 6px;
+                    background-color: #b2b2b21c;
+                }
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            form{
+                display: flex;
+                align-items: center;
+                border: 1px solid #adbac75f;
+                border-radius: 6px;
+                padding: 4px;
+                gap: 8px;
+                ion-icon{
+                    font-size: 16px;
+                    color: #ADBAC7;
+                }
+                input{
+                    color: #ADBAC7;
+                    border-color: transparent;
+                    border-right: 1px solid #adbac75f;
+                    background-color: transparent;
+                }
+                button{
+                    display: flex;
+                    padding: 4px;
+                    background-color: transparent;
+                    align-items: center;
+                    border-radius: 6px;
+                    color: #ADBAC7;
+                    border: none;
+                    &:hover{
+                        background-color: #ffffff26;
+                    }
+                }
+            }
+            & > button{
+                padding: 8px;
+                display: flex;
+                color: #ADBAC7;
+                border-radius: 6px;
+                align-items: center;
+                border: 1px solid #adbac75f;
+                background-color: transparent;
+                gap: 6px;
+                &:hover{
+                    background-color: #ffffff26;
+                    transition: 0.1s;
+                }    
+            }
+            img{
+                width: 36px;
+                border-radius: 50%;
+            }
+        }
+    }
+    &_bottom{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        button{
+            border: transparent;
+            padding-bottom: 8px;
+            background-color: transparent;
+            a{
+                padding: 6px 8px;
+                display: flex;
+                font-size: 14px;
+                color: #ADBAC7;
+                align-items: center;
+                border-radius: 6px;
+                gap: 8px;
+                &:hover{
+                    background-color: #b2b2b21c;
+                }
+            }
+        }
+        &_active{
+            border-bottom: 1px solid #EC775C;
+        }
+    }
+}

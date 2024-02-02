@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/iconmonstr-github-1.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>muhammadjonb (Muhammadjon)</title>
@@ -11,22 +12,67 @@
     <header>
       <div class="container">
         <nav class="navbar">
-          <div class="navbat_top">
-            <div class="navbat_top-left">
+          <div class="navbar_top">
+            <div class="navbar_top-left">
               <button><ion-icon name="menu-outline"></ion-icon></button>
               <div class="git-gub"><ion-icon name="logo-github"></ion-icon></div>
-              <p id="username"></p>
+              <a href="#" id="username"></a>
             </div>
-            <div class="navbat_top-right">
+            <div class="navbar_top-right">
                 <form>
                     <div class="nav-search"><ion-icon name="search-outline"></ion-icon></div>
                     <input type="text" placeholder="Type / to search">
                     <button><ion-icon name="chevron-forward-outline"></ion-icon>_</button>
                 </form>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis veritatis eveniet quas magni ullam quia quae doloribus sunt dolor accusantium. Modi accusantium, architecto incidunt vel voluptate deserunt. Deleniti, maxime minus?</p>
+                <hr class="hr">
+                <button>
+                  <ion-icon name="add-outline"></ion-icon> 
+                  <ion-icon name="caret-down-outline"></ion-icon>
+                </button>
+                <button>
+                  <ion-icon name="disc-outline"></ion-icon>
+                </button>
+                <button>
+                  <ion-icon name="git-pull-request-outline"></ion-icon>
+                </button>
+                <button>
+                  <ion-icon name="file-tray-outline"></ion-icon>
+                </button>
+                <img src="" id="navbar_logo" alt="">
             </div>
           </div>
-          <div class="navbar_botton"></div>
+          <div class="navbar_bottom">
+            <button class="navbar_bottom_active">
+              <a href="#">
+                <ion-icon name="book-outline"></ion-icon>
+                Overview
+              </a>
+            </button>
+            <button>
+              <a href="./pages/repositories.html">
+                <ion-icon name="folder-open-outline"></ion-icon>
+                Repositories <span>23</span>
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <ion-icon name="briefcase-outline"></ion-icon>
+                Projects
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <ion-icon name="cube-outline"></ion-icon>
+                Packages
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <ion-icon name="star-outline"></ion-icon>
+                Stars
+              </a>
+            </button>
+          </div>
         </nav>
       </div>
     </header>

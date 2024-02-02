@@ -1,4 +1,5 @@
 const userName = document.getElementById("username");
+const navLogo = document.getElementById('navbar_logo')
 
 let gitHubApi = 'https://api.github.com/users/muhammadjonb'
 
@@ -7,6 +8,7 @@ fetch(gitHubApi)
 .then((res) => res.json())
 .then((data) => {
     userName.innerText = data.login
+    navLogo.src = data.avatar_url
 })
 
 
