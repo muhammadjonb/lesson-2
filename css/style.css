@@ -148,7 +148,7 @@ header {
 .navbar_bottom {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 .navbar_bottom button {
   border: transparent;
@@ -158,11 +158,19 @@ header {
 .navbar_bottom button a {
   padding: 6px 8px;
   display: flex;
-  font-size: 14px;
+  font-size: 13px;
   color: #ADBAC7;
   align-items: center;
   border-radius: 6px;
   gap: 8px;
+}
+.navbar_bottom button a ion-icon {
+  font-size: 18px;
+}
+.navbar_bottom button a span {
+  padding: 2px 6px;
+  border-radius: 10px;
+  background-color: rgba(144, 144, 144, 0.3137254902);
 }
 .navbar_bottom button a:hover {
   background-color: rgba(178, 178, 178, 0.1098039216);
